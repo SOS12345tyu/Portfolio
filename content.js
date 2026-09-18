@@ -27,10 +27,10 @@ window.PORTFOLIO_DATA = {
     ],
     conceptClassNote: "The 2026 FSUK entry is Concept Class, so a complete physical aero kit was not manufactured for competition. Manufacturing work focused on process development and physical trials so future aero packages can be produced with validated methods.",
     development: [
-      { title: "2025 Vehicle - Junior Member", image: "Screenshot 2026-09-18 164420.png", text: "As a junior member, I designed the front wing and supported the member developing the rear wing. I planned the aero manufacturing sequence, mounting approach, and assembly process. I also worked with the Low Voltage team on mechanical packaging and waterproofing for the battery enclosure, PCB enclosure, and dashboard." },
-      { title: "Front Wing - Wake Management", image: "Screenshot 2026-09-18 164747.png", text: "This front-wing iteration was developed primarily for wake management after the new vehicle assembly introduced additional drag associated with disturbed flow. It achieved the highest aerodynamic efficiency among the front-wing iterations evaluated by the team." },
-      { title: "High-Downforce Rear Wing", image: "Screenshot 2026-09-18 164831.png", text: "After aero efficiency had been improved, overall downforce was still too low. I developed this four-element rear wing to solve the downforce deficit. It achieved the aerodynamic objective, but introduced an approximately 4 kg mass penalty." },
-      { title: "Final Rear-Wing Iteration", image: "Screenshot 2026-09-18 164855.png", text: "The final iteration focused on keeping the aerodynamic gains while reducing mass. It resolved the weight issue with only a negligible decrease in downforce compared with the heavier four-element concept." }
+      { title: "2025 Vehicle - Junior Member", href: "projects/2025-formula-student.html", image: "Screenshot 2026-09-18 164420.png", text: "Designed the front wing, reduced its simulated drag by approximately 150 N, supported rear-wing development, and oversaw the aero manufacturing and assembly process." },
+      { title: "Front Wing - Wake Management", href: "projects/front-wing-wake-management.html", image: "Screenshot 2026-09-18 164747.png", text: "Used wake management to reduce simulated vehicle drag by approximately 200 N and achieved the highest aerodynamic efficiency among the front-wing iterations." },
+      { title: "High-Downforce Rear Wing", href: "projects/high-downforce-rear-wing.html", image: "Screenshot 2026-09-18 164831.png", text: "Raised downforce from approximately 200 N to 350 N with a 4-element design, but the concept added about 3 kg and increased drag." },
+      { title: "Final Rear-Wing Iteration", href: "projects/final-rear-wing.html", image: "Screenshot 2026-09-18 164855.png", text: "Traded only about 20 to 30 N of downforce for a marginal drag reduction, approximately 4 kg less mass, and a more assembly-friendly endplate design." }
     ],
     results: [
       "Approximately doubled downforce while reducing drag through iterative aero development.",
@@ -42,6 +42,7 @@ window.PORTFOLIO_DATA = {
   },
   research: {
     title: "Published Research - Internal Ducting for Electric Trucks",
+    href: "projects/published-research.html",
     journal: "Simulation: Transactions of the Society for Modeling and Simulation International (2026)",
     doi: "https://doi.org/10.1177/00375497261425257",
     summary: "Co-authored a CFD study investigating an internal duct as a passive aerodynamic solution for heavy-duty electric trucks. The work compared baseline and ducted configurations using ANSYS Fluent across 50-140 km/h and quantified aerodynamic and energy impacts.",
@@ -53,8 +54,8 @@ window.PORTFOLIO_DATA = {
     ]
   },
   universityProjects: [
-    { title: "GearForge - Two-Stage Spur Gearbox", image: "Screenshot 2026-09-18 165043.png", text: "Designed and fabricated a two-stage spur gearbox using SolidWorks and AutoCAD. Manufactured components using milling, drilling, and turning; checked tolerance fits, surface finish, and shaft alignment; prepared the BOM and material/cost plan; and tested speed ratio and torque transmission against design calculations." },
-    { title: "Mechanical Mechanism Project", image: "Screenshot 2026-09-18 165137.png", text: "Add the final project name, objective, your design responsibility, and whether the mechanism was manufactured or tested. This card is intentionally editable and ready for your final project details." }
+    { title: "GearForge - Two-Stage Spur Gearbox", href: "projects/gearforge.html", image: "Screenshot 2026-09-18 165043.png", text: "Designed and fabricated a two-stage spur gearbox using SolidWorks and AutoCAD. Manufactured components using milling, drilling, and turning; checked tolerance fits, surface finish, and shaft alignment; prepared the BOM and material/cost plan; and tested speed ratio and torque transmission against design calculations." },
+    { title: "Mechanical Mechanism Project", href: "projects/mechanism.html", image: "Screenshot 2026-09-18 165137.png", text: "Add the final project name, objective, your design responsibility, and whether the mechanism was manufactured or tested. This card is intentionally editable and ready for your final project details." }
   ],
   skills: {
     "CAD & Simulation": ["SolidWorks", "ANSYS Fluent", "Creo", "SimScale", "AutoCAD", "Autodesk CFD", "FEA"],
