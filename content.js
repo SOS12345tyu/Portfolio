@@ -16,7 +16,7 @@ window.PORTFOLIO_DATA = {
     title: "Formula Student - Body, Aerodynamics & Vehicle Integration",
     subtitle: "From junior member to Mechanical Department System Lead",
     overview: "My Formula Student work combines vehicle integration, aerodynamic development, manufacturing strategy, engineering documentation, and cross-department coordination. For the 2026 FSUK Concept Class vehicle, I coordinated body assembly and positioning across departments while leading the aero design, simulation methodology, verification, validation, and result interpretation.",
-    heroImage: "assets/2026-body-assembly.svg",
+    heroImage: "Screenshot 2026-09-18 164315.png",
     responsibilities: [
       "Coordinated vehicle-body integration across Rolling Chassis, Aerodynamics, Powertrain, and Low Voltage, including positioning and mechanical interfaces.",
       "Designed the steering wheel and dashboard and coordinated their integration between the Rolling Chassis and Low Voltage departments; also supported steering-geometry development.",
@@ -27,10 +27,10 @@ window.PORTFOLIO_DATA = {
     ],
     conceptClassNote: "The 2026 FSUK entry is Concept Class, so a complete physical aero kit was not manufactured for competition. Manufacturing work focused on process development and physical trials so future aero packages can be produced with validated methods.",
     development: [
-      { title: "2025 Vehicle - Junior Member", image: "assets/2025-body-assembly.svg", text: "As a junior member, I designed the front wing and supported the member developing the rear wing. I planned the aero manufacturing sequence, mounting approach, and assembly process. I also worked with the Low Voltage team on mechanical packaging and waterproofing for the battery enclosure, PCB enclosure, and dashboard." },
-      { title: "Front Wing - Wake Management", image: "assets/front-wing.svg", text: "This front-wing iteration was developed primarily for wake management after the new vehicle assembly introduced additional drag associated with disturbed flow. It achieved the highest aerodynamic efficiency among the front-wing iterations evaluated by the team." },
-      { title: "High-Downforce Rear Wing", image: "assets/rear-wing-high-downforce.svg", text: "After aero efficiency had been improved, overall downforce was still too low. I developed this four-element rear wing to solve the downforce deficit. It achieved the aerodynamic objective, but introduced an approximately 4 kg mass penalty." },
-      { title: "Final Rear-Wing Iteration", image: "assets/rear-wing-final.svg", text: "The final iteration focused on keeping the aerodynamic gains while reducing mass. It resolved the weight issue with only a negligible decrease in downforce compared with the heavier four-element concept." }
+      { title: "2025 Vehicle - Junior Member", image: "Screenshot 2026-09-18 164420.png", text: "As a junior member, I designed the front wing and supported the member developing the rear wing. I planned the aero manufacturing sequence, mounting approach, and assembly process. I also worked with the Low Voltage team on mechanical packaging and waterproofing for the battery enclosure, PCB enclosure, and dashboard." },
+      { title: "Front Wing - Wake Management", image: "Screenshot 2026-09-18 164747.png", text: "This front-wing iteration was developed primarily for wake management after the new vehicle assembly introduced additional drag associated with disturbed flow. It achieved the highest aerodynamic efficiency among the front-wing iterations evaluated by the team." },
+      { title: "High-Downforce Rear Wing", image: "Screenshot 2026-09-18 164831.png", text: "After aero efficiency had been improved, overall downforce was still too low. I developed this four-element rear wing to solve the downforce deficit. It achieved the aerodynamic objective, but introduced an approximately 4 kg mass penalty." },
+      { title: "Final Rear-Wing Iteration", image: "Screenshot 2026-09-18 164855.png", text: "The final iteration focused on keeping the aerodynamic gains while reducing mass. It resolved the weight issue with only a negligible decrease in downforce compared with the heavier four-element concept." }
     ],
     results: [
       "Approximately doubled downforce while reducing drag through iterative aero development.",
@@ -53,8 +53,8 @@ window.PORTFOLIO_DATA = {
     ]
   },
   universityProjects: [
-    { title: "GearForge - Two-Stage Spur Gearbox", image: "assets/gearbox.svg", text: "Designed and fabricated a two-stage spur gearbox using SolidWorks and AutoCAD. Manufactured components using milling, drilling, and turning; checked tolerance fits, surface finish, and shaft alignment; prepared the BOM and material/cost plan; and tested speed ratio and torque transmission against design calculations." },
-    { title: "Mechanical Mechanism Project", image: "assets/mechanism.svg", text: "Add the final project name, objective, your design responsibility, and whether the mechanism was manufactured or tested. This card is intentionally editable and ready for your final project details." }
+    { title: "GearForge - Two-Stage Spur Gearbox", image: "Screenshot 2026-09-18 165043.png", text: "Designed and fabricated a two-stage spur gearbox using SolidWorks and AutoCAD. Manufactured components using milling, drilling, and turning; checked tolerance fits, surface finish, and shaft alignment; prepared the BOM and material/cost plan; and tested speed ratio and torque transmission against design calculations." },
+    { title: "Mechanical Mechanism Project", image: "Screenshot 2026-09-18 165137.png", text: "Add the final project name, objective, your design responsibility, and whether the mechanism was manufactured or tested. This card is intentionally editable and ready for your final project details." }
   ],
   skills: {
     "CAD & Simulation": ["SolidWorks", "ANSYS Fluent", "Creo", "SimScale", "AutoCAD", "Autodesk CFD", "FEA"],
