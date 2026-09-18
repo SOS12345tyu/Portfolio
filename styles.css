@@ -70,3 +70,9 @@ footer { border-top: 1px solid var(--line); text-align: center; color: var(--mut
 .dev-card:hover, .project-card:hover { transform:translateY(-4px); border-color:#566170; }
 .card-link { display:inline-block; margin-top:14px; color:var(--accent); font-weight:700; font-size:14px; }
 .research-block h2 a:hover { color:var(--accent); }
+
+.home-team-photo { display:grid; grid-template-columns:.8fr 1.2fr; gap:40px; align-items:center; padding-top:20px; }
+.home-team-copy p:last-child { color:var(--muted); max-width:520px; }
+.home-team-image { border:1px solid var(--line); border-radius:22px; overflow:hidden; background:var(--panel); }
+.home-team-image img { width:100%; aspect-ratio:16/9; object-fit:cover; object-position:center 45%; display:block; }
+@media (max-width:820px){ .home-team-photo{grid-template-columns:1fr;} }
