@@ -66,3 +66,7 @@ h3 { font-size: 22px; margin: 0 0 10px; }
 footer { border-top: 1px solid var(--line); text-align: center; color: var(--muted); padding: 28px 20px; font-size: 13px; }
 @media (max-width: 820px) { nav { display: none; } .hero, .two-col, .research-layout { grid-template-columns: 1fr; } .hero { min-height: auto; padding-top: 72px; } .development-grid, .project-grid, .skills-grid { grid-template-columns: 1fr; } .metric-grid { grid-template-columns: repeat(2, 1fr); } .section-shell { padding: 72px 0; } }
 @media (max-width: 520px) { .metric-grid { grid-template-columns: 1fr; } .section-shell { width: min(100% - 28px, var(--max)); } }
+.dev-card, .project-card { display:block; color:inherit; transition:transform .18s ease,border-color .18s ease; }
+.dev-card:hover, .project-card:hover { transform:translateY(-4px); border-color:#566170; }
+.card-link { display:inline-block; margin-top:14px; color:var(--accent); font-weight:700; font-size:14px; }
+.research-block h2 a:hover { color:var(--accent); }
