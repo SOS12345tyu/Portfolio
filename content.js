@@ -33,6 +33,9 @@ window.PORTFOLIO_DATA = {
       { title: "Final Rear-Wing Iteration", href: "projects/final-rear-wing.html", image: "Screenshot 2026-09-18 164855.png", text: "Traded only about 20 to 30 N of downforce for a marginal drag reduction, approximately 4 kg less mass, and a more assembly-friendly endplate design." }
     ],
     results: [
+      "Placed 2nd in the 2026 Design event and received full available design points for the aerodynamic package.",
+      "Placed 1st in the 2026 Cost & Manufacturing event, working closely with the Cost & Manufacturing team because the body and frame were a major focus of this year's work.",
+      "Contributed to the 2026 Real World Task by applying the required 10% BOM cost-reduction target to aero-kit and body manufacturing decisions without sacrificing project goals.",
       "Approximately doubled downforce while reducing drag through iterative aero development.",
       "Contributed to an estimated endurance lap-time reduction of almost one minute.",
       "Reduced vehicle mass by approximately 10 kg through design and carbon-fiber manufacturing refinement.",
